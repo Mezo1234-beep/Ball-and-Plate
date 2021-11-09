@@ -292,7 +292,7 @@ BQuit.place(x=320, y=300)
 T = tk.Text(controllerWindow, height=4, width=80)
 T.pack()
 T.place(x=0, y=350)
-T.insert(tk.END, "                  Created By\n Moaaz Alnouri , Nazir AlKadi & Wassem Balloul,\n                Ghaith AlKhole")
+T.insert(tk.END, "                  Created By\n Moaaz Alnouri")
 
 videoWindow.protocol("WM_DELETE_WINDOW", donothing)
 
